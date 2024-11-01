@@ -25,7 +25,8 @@
 }
 /* สีเนื้อหา */
 .backg1 {
-    background-color:#DA3822;
+    background-color:#FF4229
+    ;
     
 }
 
@@ -82,17 +83,29 @@ body {
     font-style: italic;
 }
 
-/* according */
-.accordion{
-        --bs-accordion-btn-color: ghostwhite;
-        --bs-accordion-btn-bg: rgb(99, 18, 31);
-        --bs-accordion-active-color: maroon;
-        --bs-accordion-active-bg: lightpink;
-    }
-
 .k2d-regular17 {
         font-family: "K2D", sans-serif;
         font-weight: 400;
         font-style: italic;
         font-size: x-large;
     }
+
+.accordion {
+    --bs-accordion-btn-bg: #ffffff !important;
+    --bs-accordion-active-bg: #a682d6e3 !important;
+    --bs-accordion-active-color: #ffffff !important;
+    --bs-accordion-btn-focus-box-shadow: #7B5CA3 !important ;
+
+}
+
+.carousel {
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
+}
+
+.underline {
+   color: black;
+   text-decoration: underline;
+}
