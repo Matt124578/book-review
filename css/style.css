@@ -25,8 +25,7 @@
 }
 /* สีเนื้อหา */
 .backg1 {
-    background-color:#FF4229
-    ;
+    background-color:#FF4229;
     
 }
 
@@ -74,7 +73,8 @@
 }
 
 body {
-    background-color: #2E2655 !important;
+    background: linear-gradient( #2E2655, #7B5CA3,#954C8A,#FF4229,#4E2A22) !important;
+    animation: color 5s ease-in-out infinite;
 }
 /* ฟอนแมตต์ตี้ */
 .k2d-regular15 {
